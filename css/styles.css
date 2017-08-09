@@ -1,0 +1,13 @@
+#output {
+  display: none;
+}
+
+body{
+  background-color: darkgrey;
+}
+
+p{
+  font-size: 22px;
+  font-family: cursive;
+  color: hotpink;
+}

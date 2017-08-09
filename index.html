@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill out this survey!</h1>
+
+      <form id="surveyAnswers">
+        <div class="form-group">
+          <label for="name1">What is your name?</label>
+          <input id="name1" class="form-control" type="text">
+
+
+
+          <label for="food1">What is your favorite food?</label>
+          <input id="food1" class="form-control" type="text">
+
+
+
+          <label for="music1">Who is your favorite musical artist?</label>
+          <input id="music1" class="form-control" type="text">
+
+
+
+          <label for="season1">Favorite season?</label>
+          <input id="season1" class="form-control" type="text">
+
+
+          <label for="org1">Organized or messy?</label>
+          <input id="org1" class="form-control" type="text">
+
+      <button type="submit" class="btn">Submit</button>
+      </div>
+      <br>
+      <select class="form-control" id="beverage">
+          <option>Coffee</option>
+          <option>Tea</option>
+          <option>Soda</option>
+          <option>Water</option>
+      </select>
+      <br>
+      <div class="form-group">
+        <label for="born">Date of birth:</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+      </form>
+      <div id="output">
+        <br>
+        <p>
+          Survey for: <span class="name1"></span>
+          <br>
+          Favorite food: <span class="food1"></span>
+          <br>
+          Favorite music: <span class="music1"></span>
+          <br>
+          Favorite season: <span class="season1"></span>
+          <br>
+          Organized or messy: <span class="org1"></span>
+        </p>
+
+      </div>
+    </div>
+  </body>
+</html>
